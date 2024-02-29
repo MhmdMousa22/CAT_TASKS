@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int scalar(int x[], int y[], int n)
+int scalar(int* x, int* y, int n)
 { int scl = 0;
   for(int i = 0; i < n; i++)
     {
