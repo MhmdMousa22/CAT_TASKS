@@ -56,7 +56,7 @@ int main() {
         printf("\nDo you want to modify grades for this student? (1 for yes, 0 for no): ");
         int choice;
         scanf("%d", &choice);
-        if (choice) {
+        if (choice == 1) {
             modifyGrades(studentID, grades);
         }
     }
