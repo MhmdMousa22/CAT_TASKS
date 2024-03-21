@@ -19,7 +19,9 @@ int main() {
         }
         printf("\nEnter (0) to exit:");
         scanf("%d", &n);
-        if(n == 0) break;
+        if(n == 0) {
+            printf("Exiting...");
+            break;}
     }
     return 0;
 }
